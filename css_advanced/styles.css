@@ -1,0 +1,21 @@
+.top-right-links {
+    position: fixed;      /* Fix position so it stays on top */
+    top: 10px;            /* small margin from top */
+    right: 10px;          /* small margin from right */
+    display: flex;        /* use flexbox */
+    gap: 15px;            /* space between links */
+    background: #f0f0f0;  /* optional: background for visibility */
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  .top-right-links a {
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+
+  .top-right-links a:hover {
+    text-decoration: underline;
+  }
