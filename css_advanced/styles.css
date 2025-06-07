@@ -225,6 +225,10 @@ html, body {
   left: 600px;
 }
 
+.pop {
+  color:#C271FF;
+}
+
 .free {
   top: 2190px;
   position: absolute;
