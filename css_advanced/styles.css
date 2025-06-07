@@ -1,21 +1,348 @@
-.top-right-links {
-    position: fixed;      /* Fix position so it stays on top */
-    top: 10px;            /* small margin from top */
-    right: 10px;          /* small margin from right */
-    display: flex;        /* use flexbox */
-    gap: 15px;            /* space between links */
-    background: #f0f0f0;  /* optional: background for visibility */
-    padding: 5px 10px;
-    border-radius: 5px;
-  }
+.background {
+  background-image: url(https://i.postimg.cc/sg2mGnpr/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1525px;
+  height: 1205px;
+  margin-bottom: 0px;
+}
 
-  .top-right-links a {
-    text-decoration: none;
-    color: #0077cc;
-    font-weight: bold;
-    font-family: Arial, sans-serif;
-  }
+html, body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100vh;
+  font-family:'Source Sans Pro', sans-serif ;
+  
+}
 
-  .top-right-links a:hover {
-    text-decoration: underline;
-  }
+
+
+.smile_image1 {
+  position: absolute;
+  left: 171.59px;
+  top: 35px;
+  width: 167.02px;
+  height: 29.46px;
+}
+
+
+.get_schooled {
+  position: absolute;
+  left: 377px;
+  top: 220px;
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 120px;
+ 
+  color: #FFFFFF;
+  
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.three_words {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 361px;           
+  left: 593px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+
+}
+
+.register_button {
+  left: 620px;
+  top: 419px;
+  position: absolute;
+  justify-content: center;
+  background-color: #C271FF;
+  padding: 15px 30px;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family:'Source Sans Pro', sans-serif ;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.register_button:hover {
+  background-color: #944de3; 
+}
+
+
+.navigation {
+  position: absolute;
+  top: 35px;
+  gap: 75px;
+  font-family:'Source Sans Pro', sans-serif ;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  left: 1040.61px;
+  text-decoration: none;
+
+}
+.navigation a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.navigation a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.pros {
+  top: 620px;
+  left: 590px;
+  font-family:'Source Sans Pro', sans-serif ;
+  position: absolute;
+  font-size: 32px;
+  font-weight: 300;
+  color: #FFFFFF;
+  
+}
+
+.Learn {
+  font-weight: 700;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #C271FF;
+}
+
+.guys {
+  top: 758px;
+  display: flex;
+  text-align: center;
+  position: relative;
+  
+}
+.one {
+  left: 217px;
+  position: absolute;
+}
+
+.two {
+  left: 506px;
+  position: absolute;
+
+}
+
+.three {
+  left: 787px;
+  position: absolute;
+
+}
+
+
+.four {
+  left: 1076px;
+  position: absolute;
+
+}
+
+.guys_text {
+  
+  color: white;
+  font-size: 16px;
+  
+  
+  
+  margin-top: 10px;
+
+}
+
+.quote_sec {
+  top: 1203px;
+  position: relative;
+  display: flex;
+  padding-bottom: 300px;
+  margin-top: 0;
+  background-color: #C271FF;
+  color: white;
+}
+
+.quote_guy {
+  left: 259px;
+  position: absolute;
+  top: 100px;
+  
+}
+
+.quote {
+  left: 472px;
+  position: absolute;
+  font-size: 22px;
+  font-family: 'Source Sans Pro', sans-serif ;
+  top: 100px;
+}
+
+
+.name {
+  left: 472px;
+  position: absolute;
+  font-size: 22px;
+  font-family: 'Source Sans Pro', sans-serif ;
+  top: 180px;
+
+}
+
+.w {
+  left: 472px;
+  position: absolute;
+  font-size: 22px;
+  font-family: 'Source Sans Pro', sans-serif ;
+  top: 210px;
+}
+
+
+.videos {
+  position: absolute;
+  top: 1700px;
+  justify-content: center;
+  left: 50%;
+  display: flex;
+  left: 150px;
+}
+
+.tut {
+  position: absolute;
+  top: 1572px;
+  justify-content: center;
+  left: 50%;
+  
+  left: 600px;
+}
+
+.free {
+  top: 2190px;
+  position: absolute;
+  text-align: center;
+  left: 100px;
+  background-color: #071629;
+  width: 1530px;
+  left: -10px;
+  color: #FFFFFF;
+  height: 505px;
+  
+  
+}
+
+.register_buttontwo {
+  left: 660px;
+  top: 419px;
+  position: absolute;
+  justify-content: center;
+  background-color: #C271FF;
+  padding: 15px 30px;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family:'Source Sans Pro', sans-serif ;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  
+}
+.register_buttontwo:hover {
+  background-color: #944de3; 
+}
+
+.a {
+  color:#C271FF;
+  font-weight: bold;
+  font-size: 32px;
+
+}
+
+.b {
+  font-weight: 300;
+  font-size: 32px;
+}
+
+
+.faq {
+  top: 2790px;
+  position: absolute;
+  text-align: center;
+  left: 300px;
+  text-align: left;
+  
+  width: 1530px;
+
+  color: black;
+  height: 505px;
+
+}
+
+.c {
+  left: 420px;
+  position: absolute;
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.table {
+  top: 2890px;
+
+}
+
+.lorem {
+  color: #071629;
+  font-size: 14px;
+}
+
+.footer {
+  background-color: #0a1229;
+  color: white;
+  padding: 30px 60px;
+  font-family: sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 3490px;
+  width: 1530px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-left img {
+  height: 30px;
+}
+
+.footer-right a {
+  margin: 0 10px;
+}
+
+.footer-right img {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #b0b0b0;
+}
+
